@@ -1,0 +1,35 @@
+{
+  "name": "dj-jay-app",
+  "version": "1.0.0",
+  "description": "Professional DJ Mixer App for iOS and Android",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.4",
+    "expo": "~49.0.0",
+    "expo-av": "~13.8.0",
+    "expo-media-library": "~14.6.0",
+    "expo-document-picker": "~11.5.0",
+    "react-native-gesture-handler": "~2.12.0",
+    "react-native-reanimated": "~3.3.0",
+    "react-native-svg": "13.9.0",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/bottom-tabs": "^6.5.8",
+    "zustand": "^4.4.1",
+    "wavesurfer.js": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "jest": "^29.7.0",
+    "@testing-library/react-native": "^12.2.0"
+  },
+  "private": true
+}
